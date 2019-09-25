@@ -56,10 +56,11 @@
   <distributionManagement>
 
     <repository>
-        <id>bintray-gohelpfund-Helpj</id>
-        <name>gohelpfund-Helpj</name>
-      <url>https://api.bintray.com/maven/gohelpfund/Helpj/org.helpj/;publish=1</url>
+        <id>bintray-gohelpfund-org-Helpj</id>
+        <name>gohelpfund-org-Helpj</name>
+        <url>https://api.bintray.com/maven/gohelpfund-org/Helpj/helpj/;publish=1</url>
     </repository>
+
 
     <snapshotRepository>
       <id>snapshots</id>
