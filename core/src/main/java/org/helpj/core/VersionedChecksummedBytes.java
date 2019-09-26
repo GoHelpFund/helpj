@@ -27,9 +27,7 @@ import com.google.common.primitives.UnsignedBytes;
 
 /**
  * <p>In Bitcoin the following format is often used to represent some type of key:</p>
- * <p/>
  * <pre>[one version byte] [data bytes] [4 checksum bytes]</pre>
- * <p/>
  * <p>and the result is then Base58 encoded. This format is used for addresses, and private keys exported using the
  * dumpprivkey command.</p>
  */

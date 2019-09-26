@@ -56,11 +56,10 @@
   <distributionManagement>
 
     <repository>
-        <id>bintray-gohelpfund-org-Helpj</id>
-        <name>gohelpfund-org-Helpj</name>
-        <url>https://api.bintray.com/maven/gohelpfund-org/Helpj/helpj/;publish=1</url>
+        <id>central</id>
+        <name>gohelpfund-Helpj</name>
+        <url>https://api.bintray.com/maven/gohelpfund/Helpj/org.helpj/;publish=1</url>
     </repository>
-
 
     <snapshotRepository>
       <id>snapshots</id>
@@ -117,7 +116,11 @@
         </plugin>
         <plugin>
           <artifactId>maven-javadoc-plugin</artifactId>
-          <version>2.10.2</version>
+          <version>3.1.1</version>
+          <configuration>
+              <source>8</source>
+              <doclint>none</doclint>
+          </configuration>
         </plugin>
         <plugin>
           <artifactId>maven-resources-plugin</artifactId>
